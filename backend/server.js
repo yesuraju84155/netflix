@@ -10,7 +10,7 @@ import searchRoutes from "./routes/search.route.js";
 import { ENV_VARS } from "./config/envVars.js";
 import { connectDB } from "./config/db.js";
 import { protectRoute } from "./middleware/protectRoute.js";
-import job from "./cron/cron.js";
+//import job from "./cron/cron.js";
 
 const app = express();
 
