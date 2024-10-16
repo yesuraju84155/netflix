@@ -35,5 +35,5 @@ app.use("/api/v1/search", protectRoute, searchRoutes);
 app.listen(PORT, () => {
 	console.log("Server started at http://localhost:" + PORT);
 	connectDB();
-	job.start();
+	//job.start();
 });
